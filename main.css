@@ -56,8 +56,8 @@
 
 @font-face {
     font-family: 'Gora Free';
-    src: url('/fonts/GoraFree-Regular.woff2') format('woff2'),
-        url('/fonts/GoraFree-Regular.woff') format('woff');
+    src: url('fonts/GoraFree-Regular.woff2') format('woff2'),
+        url('fonts/GoraFree-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
