@@ -1,55 +1,55 @@
 @font-face {
     font-family: 'Open Sans';
-    src: url('OpenSans-ExtraBold.woff2') format('woff2'),
-        url('OpenSans-ExtraBold.woff') format('woff');
+    src: url('fonts/OpenSans-ExtraBold.woff2') format('woff2'),
+        url('fonts/OpenSans-ExtraBold.woff') format('woff');
     font-weight: 800;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Open Sans';
-    src: url('OpenSans-Bold.woff2') format('woff2'),
-        url('OpenSans-Bold.woff') format('woff');
+    src: url('fonts/OpenSans-Bold.woff2') format('woff2'),
+        url('fonts/OpenSans-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Open Sans';
-    src: url('OpenSansLight-Italic.woff2') format('woff2'),
-        url('OpenSansLight-Italic.woff') format('woff');
+    src: url('fonts/OpenSansLight-Italic.woff2') format('woff2'),
+        url('fonts/OpenSansLight-Italic.woff') format('woff');
     font-weight: 300;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Open Sans';
-    src: url('OpenSans-Regular.woff2') format('woff2'),
-        url('OpenSans-Regular.woff') format('woff');
+    src: url('fonts/OpenSans-Regular.woff2') format('woff2'),
+        url('fonts/OpenSans-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Roboto';
-    src: url('Roboto-Bold.woff2') format('woff2'),
-        url('Roboto-Bold.woff') format('woff');
+    src: url('fonts/Roboto-Bold.woff2') format('woff2'),
+        url('fonts/Roboto-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Open Sans';
-    src: url('OpenSans-Light.woff2') format('woff2'),
-        url('OpenSans-Light.woff') format('woff');
+    src: url('fonts/OpenSans-Light.woff2') format('woff2'),
+        url('fonts/OpenSans-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Roboto';
-    src: url('Roboto-Light.woff2') format('woff2'),
-        url('Roboto-Light.woff') format('woff');
+    src: url('fonts/Roboto-Light.woff2') format('woff2'),
+        url('fonts/Roboto-Light.woff') format('woff');
     font-weight: 300;
     font-style: normal;
 }
@@ -61,38 +61,49 @@
     font-weight: normal;
     font-style: normal;
 }
-.logo {
-    position: absolute;
-    top: 30px;
-    left: 19px;
-}
-.logo__text {
-    font-family: 'Gora Free';
-    color: #e1942a;
-    font-size: 18pt;
-    text-decoration: none;
-    position: absolute;
-}
 body {
     margin: 0;
-    margin-top: 0;
     widows: 1100px;
 }
-.header-container {
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.header-container, .footer__container {
     background: black;
     height: 76px;
     color: white;
     font-family: 'Open Sans';
     font-weight: bold;
     position: relative;
-    margin: 0 auto;
+}
+.logo__text {
+    font-family: 'Gora Free';
+    color: #e1942a;
+    font-weight: 300;
+    font-size: 18pt;
+    position: absolute;
+    top: 30px;
+    left: 19px;
+}
+
+.menu {
+    width: 300px;
+    margin: 0px;
 }
 .menu__list {
-    margin: 0 auto;
+    margin: 0;
 }
 .menu__item {
     display: inline-block;
-    text-align: middle;
+}
+.menu__link {
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    text-transform: uppercase;
 }
 .contacts__phone {
     position: absolute;
@@ -107,10 +118,84 @@ body {
     right: 20px;
     color: #e1942a;
 }
+.title_image {
+    background-position: center;
+}
 .features {
     background: black;
     color: white;
 }
+.features__header, .latestnews__header {
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 49pt;
+    text-transform: uppercase;
+}
 .features__item {
     display: inline-block;
 }
+.features__item-title {
+    font-family: 'Open Sans';
+    font-size: 11pt;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.features__item-text, .features__sub-item {
+    font-family: 'Open Sans';
+    font-size: 18pt;
+    font-weight: normal;
+}
+.features__sub-item {
+    font-size: 16pt;
+    list-style: outside;
+}
+.latestnews, .topnews{
+    display: inline-block;
+    vertical-align: top;
+}
+.latestnews__img {
+    border-radius: 50%;
+}
+.latestnews__content {
+    font-family: 'Roboto';
+    font-size: 18pt;
+    font-weight: light;
+    color: black;
+}
+.latestnews__date {
+    font-size: 14pt;
+}
+.latestnews__title {
+    font-weight: bold;
+}
+.topnews__header, .topnews__month {
+    font-family: 'Open Sans';
+    font-size: 12pt;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.topnews__month {
+    color: #656464;
+}
+.footer__container {
+    background-color: black;
+    height: 75px;
+    position: relative;
+}
+.copyright, .socials__title {
+    font-family: 'Open Sans';
+    font-size: 14pt;
+    font-weight: normal;
+}
+.copyright__link {
+    font-weight: bold;
+    text-decoration: underline;
+    color: white;
+}
+.socials__title {
+    font-weight: bold;
+}
+.socials__item {
+    display: inline-block;
+}
+
