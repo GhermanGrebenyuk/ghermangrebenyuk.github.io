@@ -117,6 +117,7 @@ ul {
     top: 46px;
     right: 20px;
     color: #e1942a;
+    text-decoration: underline;
 }
 .title_image {
     background-position: center;
