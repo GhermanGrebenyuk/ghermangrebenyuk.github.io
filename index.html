@@ -19,7 +19,7 @@
                         <li class="menu__item">
                             <a href="#" class="menu__link">
                                 <img src="img/main_icon1.png" alt="иконка пункта меню" class="menu__icon">
-                                <div class="menu__title">Главная</div>
+                                <div class="menu__title menu__title-main">Главная</div>
                             </a>
                         </li>
                         <li class="menu__item">
@@ -48,49 +48,61 @@
                 <img src="img/title_img.png" alt="Картинка Just Do It" class="title__img">
             </div>
             <div class="features">
-                <H1 class="features__header">Особенности</H1>
-                <ul class="features__list">
-                    <li class="features__item">
-                        <img src="img/flower.png" alt="картинка цветка" class="features__img">
-                        <div class="features__item-description">
-                            <h3 class="features__item-title">Уникальность</h3>
-                            <p class="features__item-text">Мы сделаем все для вашего комфорта</p>
-                            <ul class="features__sub-list">
-                                <li class="features__sub-item">Питание включено</li>
-                                <li class="features__sub-item">Багаж (до 5 кг)</li>
-                                <li class="features__sub-item">Душ/баня</li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="features__item">
-                        <img src="img/star.png" alt="картинка звезды" class="features__img">
-                        <div class="features__item-description">
-                            <h3 class="features__item-title">Премиум-класс</h3>
-                            <p class="features__item-text">Наш зал оборудован тренажёрами А-класса</p>
-                            <ul class="features__sub-list">
-                                <li class="features__sub-item">Качество</li>
-                                <li class="features__sub-item">Продуктивность</li>
-                                <li class="features__sub-item">Результат</li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="features__item">
-                        <img src="img/palette.png" alt="картинка палитры" class="features__img">
-                        <div class="features__item-description">
-                            <h3 class="features__item-title">Личный тренер</h3>
-                            <p class="features__item-text">Тренер сделает всё для вашего результата</p>
-                            <ul class="features__sub-list">
-                                <li class="features__sub-item">Программа</li>
-                                <li class="features__sub-item">Питание</li>
-                                <li class="features__sub-item">План тренеровок</li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
+                <div class="features__content">
+                    <H1 class="features__header">Особенности</H1>
+                    <ul class="features__list">
+                        <li class="features__item">
+                            <div class="features__image">
+                                <img src="img/flower.png" alt="картинка цветка" class="features__img">
+                            </div>
+                            <div class="features__item-description">
+                                <h3 class="features__item-title">Уникальность</h3>
+                                <p class="features__item-text">Мы сделаем все, 
+                                    для вашего комфорта</p>
+                                <ul class="features__sub-list">
+                                    <li class="features__sub-item">Питание включено</li>
+                                    <li class="features__sub-item">Багаж (до 5 кг)</li>
+                                    <li class="features__sub-item">Душ/баня</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="features__item">
+                            <div class="features__image">
+                                <img src="img/star.png" alt="картинка звезды" class="features__img">
+                            </div>
+                            <div class="features__item-description">
+                                <h3 class="features__item-title">Премиум-класс</h3>
+                                <p class="features__item-text feautres__item-premium-text">Наш зал оборудован 
+                                    тренажёрами А-класса</p>
+                                <ul class="features__sub-list">
+                                    <li class="features__sub-item">Качество</li>
+                                    <li class="features__sub-item">Продуктивность</li>
+                                    <li class="features__sub-item">Результат</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="features__item">
+                            <div class="features__image">
+                                <img src="img/palette.png" alt="картинка палитры" class="features__img">
+                            </div>
+                            <div class="features__item-description">
+                                <h3 class="features__item-title">Личный тренер</h3>
+                                <p class="features__item-text">Тренер сделает всё
+                                    для вашего результата</p>
+                                <ul class="features__sub-list">
+                                    <li class="features__sub-item">Программа</li>
+                                    <li class="features__sub-item">Питание</li>
+                                    <li class="features__sub-item">План тренеровок</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="news">
+                <h1 class="latestnews__header">Последние новости</h1>
                 <div class="latestnews">
-                    <h1 class="latestnews__header">Последние новости</h1>
+                    
                     <div class="latestnews__content">
                         <ul class="latestnews__list">
                             <li class="latestnews__item">
@@ -98,7 +110,7 @@
                                     <div class="latestnews__item-img">
                                         <img src="img/ln_1.png" alt="картинка новости" class="latestnews__img">
                                     </div>
-                                    <div class="latestnews__content">
+                                    <div class="latestnews__content-inner">
                                         <date class="latestnews__date">12.10.2016</date>
                                         <h3 class="latestnews__title">Похудение с помощью бодибилдинга!</h3>
                                         <p class="latestnews__text">Вдыхание одного литра кислорода эквивалентно "сжиганию" 5 калорий,
@@ -113,7 +125,7 @@
                                     <div class="latestnews__item-img">
                                         <img src="img/ln_2.png" alt="картинка новости" class="latestnews__img">
                                     </div>
-                                    <div class="latestnews__content">
+                                    <div class="latestnews__content-inner">
                                         <date class="latestnews__date">12.10.2016</date>
                                         <h3 class="latestnews__title">Заражай друзей, получай призы!</h3>
                                         <p class="latestnews__text">Дополнительно для Вас: пользование сауной и предоставление средств
@@ -128,7 +140,7 @@
                                     <div class="latestnews__item-img">
                                         <img src="img/ln_3.png" alt="картинка новости" class="latestnews__img">
                                     </div>
-                                    <div class="latestnews__content">
+                                    <div class="latestnews__content-inner">
                                         <date class="latestnews__date">12.10.2016</date>
                                         <h3 class="latestnews__title">Фрилансер? Выпрями спину!</h3>
                                         <p class="latestnews__text">Создайте рабочее место под себя. Вот этот инструмент поможет определить, что
@@ -207,8 +219,8 @@
                     <a href="#" class="copyright__link">LoftSchool</a>.
                     Автор работы: <strong>Герман Гребенюк</strong>
                 </div>
-                <a href="#" class="logo">
-                    <div class="logo__text">афродита</div>
+                <a href="#" class="footerlogo">
+                    <div class="footerlogo__text">афродита</div>
                 </a>
                 <div class="socials">
                     <div class="socials__title">Наши социальные сети</div>
