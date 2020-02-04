@@ -78,6 +78,7 @@ ul {
 }
 .header, .footer {
     background: black;
+    min-width: 1100px;
 }
 .header-container, .footer__container {
     height: 76px;
